@@ -1,0 +1,26 @@
+[project]
+name = "py-exercise"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "haseebmangal", email = "haseebmangal_33@yahoo.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+main = "py_exercise:main"
+class = "py_exercise.exercise.House:main"
+func = "py_exercise.exercise.display:main"
+cart = "py_exercise.exercise:main"
+
+
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+
+
+# syntax: command_name = "module_name:function_name"
