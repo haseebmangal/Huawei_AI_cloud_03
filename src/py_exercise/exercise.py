@@ -269,6 +269,8 @@
 # print(f"the first movie is {movies[0]} and the last movie is {movies[-1]}")
 # movies.append("the shawshank redemption")
 # print(movies)
+# print(movies.append("the shawshank redemption"))
+# print(movies)
 
 # challenge: remove one movie.
 # movies.remove("The Matrix")
@@ -284,14 +286,72 @@
 # check the index of a movie using .count()
 # print(movies.count("Inception")) 
 
+# Tuples: ordered, immutable, allows duplicates
+# cord = (34.0, 71.5)
+# print(f"first coordinate address: {id(cord)}")
 
+# cord = (78.0, 36.1)
+# print(f"second coordinate address: {id(cord)}")
 
+# print(cord)
+# print(cord[0])
+# print(cord[1])
 
+# create a tuple called my_location
+# my_location = (34.0, 71.5)
+# print(f"My location is: {my_location}")
+# print(f"Latitude: {my_location[0]}, Longitude: {my_location[1]}")
+# print(my_location[0] = 10)
+# the error i got
+#  File "/Users/haseeb/Documents/Ai_cloud_python/Huawei_AI_cloud_03/src/py_exercise/exercise.py", line 302
+#     print(my_location[0] = 10)
+#           ^^^^^^^^^^^^^^^^
+# SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
 
+#  sets: unordered, mutable, no duplicates
+# numbers = {1, 2, 2, 3, 3, 4, 5}
+# print(numbers)
 
+#  create a set called class_toppings with at least 6 items.
+# class_toppings = {"pepperoni", "mushrooms", "onions", "sausage", "double cheese", "extra cheese", "extra cheese", "mushrooms"}
+# print(class_toppings)
+# class_toppings.add("pineapple")
+# print(class_toppings)
 
+# Dictionaries: unordered, mutable, no duplicates stores key value pairs
+# student = {
+#     "name": "Alice",
+#     "age": 20,
+#     "major": "Computer Science"
+# }
 
+# print(student)
+# print(f"name :", student["name"])
 
+# student["age"] = 21
+# print(student)
+
+# student["city"] = "peshawar"
+# print(student)
+
+# CREATE a dictionary called "me" with keys
+me = {
+    "name": "Haseeb",
+    "age": 20,
+    "city": "Peshawar",
+    "hobbies": ["reading", "coding", "gaming"],
+    "is_student": True
+}
+
+print(me)
+me["name"]
+print(f"My name is {me['name']}.")
+
+me["age"] = 31
+print(f"My age is {me['age']}.")
+
+me["favourite_language"] = "python"
+print(f"My favourite programming language is {me['favourite_language']}.")
 
 
 
